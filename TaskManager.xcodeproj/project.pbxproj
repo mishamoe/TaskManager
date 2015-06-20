@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8739E7B01AF7FBD4002B8610 /* TaskTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8739E7AF1AF7FBD4002B8610 /* TaskTableViewCell.m */; };
+		8739E7B31AF8884B002B8610 /* BackgroundColorTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8739E7B21AF8884B002B8610 /* BackgroundColorTableViewController.m */; };
+		8766279C1AFD3F04002FF5DC /* Colors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8766279B1AFD3F04002FF5DC /* Colors.plist */; };
+		8766279E1AFD58CA002FF5DC /* Colors2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8766279D1AFD58CA002FF5DC /* Colors2.plist */; };
+		8771C0401AF9D1640082D6BD /* star_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 8771C03E1AF9D1640082D6BD /* star_blue.png */; };
+		8771C0411AF9D1640082D6BD /* star_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 8771C03F1AF9D1640082D6BD /* star_grey.png */; };
+		87AD54F01B14680D00DD1568 /* CategoriesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AD54EF1B14680D00DD1568 /* CategoriesTableViewController.m */; };
+		87AD54F31B14688400DD1568 /* AddCategoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AD54F21B14688400DD1568 /* AddCategoryTableViewController.m */; };
+		87D9170A1B173E820018B8FB /* CategoryListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D917091B173E820018B8FB /* CategoryListTableViewController.m */; };
+		87E8F19D1B179E6A00BA01C7 /* CategoryTasksTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E8F19C1B179E6A00BA01C7 /* CategoryTasksTableViewController.m */; };
 		C6112F101AEBC39700BD4BA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6112F0F1AEBC39700BD4BA1 /* main.m */; };
 		C6112F131AEBC39700BD4BA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6112F121AEBC39700BD4BA1 /* AppDelegate.m */; };
-		C6112F161AEBC39700BD4BA1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6112F151AEBC39700BD4BA1 /* FirstViewController.m */; };
-		C6112F191AEBC39700BD4BA1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6112F181AEBC39700BD4BA1 /* SecondViewController.m */; };
 		C6112F1C1AEBC39700BD4BA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6112F1A1AEBC39700BD4BA1 /* Main.storyboard */; };
 		C6112F1E1AEBC39700BD4BA1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6112F1D1AEBC39700BD4BA1 /* Images.xcassets */; };
 		C6112F211AEBC39700BD4BA1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6112F1F1AEBC39700BD4BA1 /* LaunchScreen.xib */; };
 		C6112F2D1AEBC39700BD4BA1 /* TaskManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6112F2C1AEBC39700BD4BA1 /* TaskManagerTests.m */; };
+		C6112F381AEBC4A700BD4BA1 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = C6112F371AEBC4A700BD4BA1 /* Task.m */; };
+		C6112F3B1AEBC52600BD4BA1 /* TasksTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6112F3A1AEBC52600BD4BA1 /* TasksTableViewController.m */; };
+		C6112F3E1AEBE4AB00BD4BA1 /* TaskDetailsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6112F3D1AEBE4AB00BD4BA1 /* TaskDetailsTableViewController.m */; };
+		C6112F411AEC30A800BD4BA1 /* AddTaskTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6112F401AEC30A800BD4BA1 /* AddTaskTableViewController.m */; };
+		C62EB0AB1AED709F00303AB3 /* HistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C62EB0AA1AED709F00303AB3 /* HistoryTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,21 +41,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8739E7AE1AF7FBD4002B8610 /* TaskTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskTableViewCell.h; sourceTree = "<group>"; };
+		8739E7AF1AF7FBD4002B8610 /* TaskTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskTableViewCell.m; sourceTree = "<group>"; };
+		8739E7B11AF8884B002B8610 /* BackgroundColorTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundColorTableViewController.h; sourceTree = "<group>"; };
+		8739E7B21AF8884B002B8610 /* BackgroundColorTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundColorTableViewController.m; sourceTree = "<group>"; };
+		8766279B1AFD3F04002FF5DC /* Colors.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Colors.plist; sourceTree = "<group>"; };
+		8766279D1AFD58CA002FF5DC /* Colors2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Colors2.plist; sourceTree = "<group>"; };
+		8771C03E1AF9D1640082D6BD /* star_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_blue.png; sourceTree = "<group>"; };
+		8771C03F1AF9D1640082D6BD /* star_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_grey.png; sourceTree = "<group>"; };
+		87AD54EE1B14680D00DD1568 /* CategoriesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriesTableViewController.h; sourceTree = "<group>"; };
+		87AD54EF1B14680D00DD1568 /* CategoriesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriesTableViewController.m; sourceTree = "<group>"; };
+		87AD54F11B14688400DD1568 /* AddCategoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCategoryTableViewController.h; sourceTree = "<group>"; };
+		87AD54F21B14688400DD1568 /* AddCategoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCategoryTableViewController.m; sourceTree = "<group>"; };
+		87D917081B173E820018B8FB /* CategoryListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryListTableViewController.h; sourceTree = "<group>"; };
+		87D917091B173E820018B8FB /* CategoryListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryListTableViewController.m; sourceTree = "<group>"; };
+		87E8F19B1B179E6A00BA01C7 /* CategoryTasksTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryTasksTableViewController.h; sourceTree = "<group>"; };
+		87E8F19C1B179E6A00BA01C7 /* CategoryTasksTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryTasksTableViewController.m; sourceTree = "<group>"; };
 		C6112F0A1AEBC39700BD4BA1 /* TaskManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6112F0E1AEBC39700BD4BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6112F0F1AEBC39700BD4BA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C6112F111AEBC39700BD4BA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C6112F121AEBC39700BD4BA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C6112F141AEBC39700BD4BA1 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		C6112F151AEBC39700BD4BA1 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		C6112F171AEBC39700BD4BA1 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		C6112F181AEBC39700BD4BA1 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		C6112F1B1AEBC39700BD4BA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C6112F1D1AEBC39700BD4BA1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C6112F201AEBC39700BD4BA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C6112F261AEBC39700BD4BA1 /* TaskManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6112F2B1AEBC39700BD4BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6112F2C1AEBC39700BD4BA1 /* TaskManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskManagerTests.m; sourceTree = "<group>"; };
+		C6112F361AEBC4A700BD4BA1 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		C6112F371AEBC4A700BD4BA1 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		C6112F391AEBC52600BD4BA1 /* TasksTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TasksTableViewController.h; sourceTree = "<group>"; };
+		C6112F3A1AEBC52600BD4BA1 /* TasksTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TasksTableViewController.m; sourceTree = "<group>"; };
+		C6112F3C1AEBE4AB00BD4BA1 /* TaskDetailsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskDetailsTableViewController.h; sourceTree = "<group>"; };
+		C6112F3D1AEBE4AB00BD4BA1 /* TaskDetailsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskDetailsTableViewController.m; sourceTree = "<group>"; };
+		C6112F3F1AEC30A800BD4BA1 /* AddTaskTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTaskTableViewController.h; sourceTree = "<group>"; };
+		C6112F401AEC30A800BD4BA1 /* AddTaskTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTaskTableViewController.m; sourceTree = "<group>"; };
+		C62EB0A91AED709F00303AB3 /* HistoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryTableViewController.h; sourceTree = "<group>"; };
+		C62EB0AA1AED709F00303AB3 /* HistoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,13 +121,35 @@
 			children = (
 				C6112F111AEBC39700BD4BA1 /* AppDelegate.h */,
 				C6112F121AEBC39700BD4BA1 /* AppDelegate.m */,
-				C6112F141AEBC39700BD4BA1 /* FirstViewController.h */,
-				C6112F151AEBC39700BD4BA1 /* FirstViewController.m */,
-				C6112F171AEBC39700BD4BA1 /* SecondViewController.h */,
-				C6112F181AEBC39700BD4BA1 /* SecondViewController.m */,
 				C6112F1A1AEBC39700BD4BA1 /* Main.storyboard */,
+				C6112F391AEBC52600BD4BA1 /* TasksTableViewController.h */,
+				C6112F3A1AEBC52600BD4BA1 /* TasksTableViewController.m */,
+				C62EB0A91AED709F00303AB3 /* HistoryTableViewController.h */,
+				C62EB0AA1AED709F00303AB3 /* HistoryTableViewController.m */,
+				87E8F19B1B179E6A00BA01C7 /* CategoryTasksTableViewController.h */,
+				87E8F19C1B179E6A00BA01C7 /* CategoryTasksTableViewController.m */,
+				8739E7AE1AF7FBD4002B8610 /* TaskTableViewCell.h */,
+				8739E7AF1AF7FBD4002B8610 /* TaskTableViewCell.m */,
+				87AD54EE1B14680D00DD1568 /* CategoriesTableViewController.h */,
+				87AD54EF1B14680D00DD1568 /* CategoriesTableViewController.m */,
+				87AD54F11B14688400DD1568 /* AddCategoryTableViewController.h */,
+				87AD54F21B14688400DD1568 /* AddCategoryTableViewController.m */,
+				C6112F3F1AEC30A800BD4BA1 /* AddTaskTableViewController.h */,
+				C6112F401AEC30A800BD4BA1 /* AddTaskTableViewController.m */,
+				C6112F3C1AEBE4AB00BD4BA1 /* TaskDetailsTableViewController.h */,
+				C6112F3D1AEBE4AB00BD4BA1 /* TaskDetailsTableViewController.m */,
+				8739E7B11AF8884B002B8610 /* BackgroundColorTableViewController.h */,
+				8739E7B21AF8884B002B8610 /* BackgroundColorTableViewController.m */,
+				87D917081B173E820018B8FB /* CategoryListTableViewController.h */,
+				87D917091B173E820018B8FB /* CategoryListTableViewController.m */,
+				C6112F361AEBC4A700BD4BA1 /* Task.h */,
+				C6112F371AEBC4A700BD4BA1 /* Task.m */,
+				8766279B1AFD3F04002FF5DC /* Colors.plist */,
+				8766279D1AFD58CA002FF5DC /* Colors2.plist */,
 				C6112F1D1AEBC39700BD4BA1 /* Images.xcassets */,
 				C6112F1F1AEBC39700BD4BA1 /* LaunchScreen.xib */,
+				8771C03E1AF9D1640082D6BD /* star_blue.png */,
+				8771C03F1AF9D1640082D6BD /* star_grey.png */,
 				C6112F0D1AEBC39700BD4BA1 /* Supporting Files */,
 			);
 			path = TaskManager;
@@ -204,9 +261,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8766279E1AFD58CA002FF5DC /* Colors2.plist in Resources */,
+				8766279C1AFD3F04002FF5DC /* Colors.plist in Resources */,
 				C6112F1C1AEBC39700BD4BA1 /* Main.storyboard in Resources */,
+				8771C0401AF9D1640082D6BD /* star_blue.png in Resources */,
 				C6112F211AEBC39700BD4BA1 /* LaunchScreen.xib in Resources */,
 				C6112F1E1AEBC39700BD4BA1 /* Images.xcassets in Resources */,
+				8771C0411AF9D1640082D6BD /* star_grey.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,10 +285,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6112F191AEBC39700BD4BA1 /* SecondViewController.m in Sources */,
+				C6112F411AEC30A800BD4BA1 /* AddTaskTableViewController.m in Sources */,
+				87E8F19D1B179E6A00BA01C7 /* CategoryTasksTableViewController.m in Sources */,
+				87AD54F31B14688400DD1568 /* AddCategoryTableViewController.m in Sources */,
 				C6112F131AEBC39700BD4BA1 /* AppDelegate.m in Sources */,
-				C6112F161AEBC39700BD4BA1 /* FirstViewController.m in Sources */,
+				C62EB0AB1AED709F00303AB3 /* HistoryTableViewController.m in Sources */,
+				87AD54F01B14680D00DD1568 /* CategoriesTableViewController.m in Sources */,
+				C6112F381AEBC4A700BD4BA1 /* Task.m in Sources */,
+				8739E7B01AF7FBD4002B8610 /* TaskTableViewCell.m in Sources */,
+				C6112F3B1AEBC52600BD4BA1 /* TasksTableViewController.m in Sources */,
 				C6112F101AEBC39700BD4BA1 /* main.m in Sources */,
+				8739E7B31AF8884B002B8610 /* BackgroundColorTableViewController.m in Sources */,
+				C6112F3E1AEBE4AB00BD4BA1 /* TaskDetailsTableViewController.m in Sources */,
+				87D9170A1B173E820018B8FB /* CategoryListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +494,7 @@
 				C6112F321AEBC39700BD4BA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6112F331AEBC39700BD4BA1 /* Build configuration list for PBXNativeTarget "TaskManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +503,7 @@
 				C6112F351AEBC39700BD4BA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
